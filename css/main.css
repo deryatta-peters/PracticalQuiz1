@@ -1,0 +1,105 @@
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    background: #656868;
+}
+
+.background {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.page-wrapper {
+    background-color: #f4f4ee;
+    padding: 4px 4px;
+}
+
+.page-header {
+    background-image: url('../img/header.jpg');
+    padding: 30px 20px;
+    width: 640px;
+    height: 140px;
+}
+
+.page-header h1 {
+    color: #FCF8E3;
+    font-size: 30px;
+    letter-spacing: 23px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.page-header h3 {
+    color: #E2D179;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 350;
+}
+
+main {
+    display: flex;
+
+}
+
+.lhs {
+    width: 480px;
+    padding: 20px;
+    background-color:#F3E8AA;
+    border-radius: 5px;
+    text-align: justify;
+    border-right: 2px dotted #3333339e;
+}
+
+.lhs h3 {
+    color: #a0410d;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 350;
+}
+
+.rhs {
+    width: 160px;
+    padding: 10px 10px;
+    background-color: #F1C969;
+}
+
+.sa {
+    width: 100%;
+    background: #595a38;
+    color: #FCF8E3;
+    padding: 5px 5px;
+    border: 2px solid #3a3b22;
+}
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer{
+    width: 640px;
+    height: 70px;
+    background-image: url('../img/footer.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #FCF8E3;
+    font-size: 16px;
+    font-weight: 400;
+}
